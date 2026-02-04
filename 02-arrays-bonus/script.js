@@ -30,8 +30,17 @@ for (let j = 0; j < teachers.length; j++) {
 }
 console.log(longNames);
 
-
 // 3. Rimuovi 'Ed' dall'array teachers
+const poorEdd = [];
+
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i].length > 2) {
+    poorEdd.push(teachers[i])
+
+  }
+}
+console.log(poorEdd);
+
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
