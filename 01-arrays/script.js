@@ -33,7 +33,7 @@ const index = teachers.indexOf('Lewis')
 console.log(index);
 
 // e salvalo nella variabile lewisIndex
-const lewisIndex = teachers.indexOf('Lewis');
+const lewisIndex = index;
 console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
