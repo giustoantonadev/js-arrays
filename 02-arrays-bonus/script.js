@@ -57,7 +57,7 @@ console.log(isFabioPresent);
 
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-allTeachers = ['Nathan', 'Ed', 'Fabio','Phil', 'Carlo', 'Lewis', 'Luca']
+allTeachers = ['Nathan, Ed, Fabio, Phil, Carlo, Lewis, Luca']
 const teachersString = allTeachers;
 
 console.log(teachersString);
